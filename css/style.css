@@ -1572,7 +1572,7 @@ footer .social-media {
   }
 
   header {
-    height: 600px;
+    height: 650px;
     max-height: 100px;
     overflow: hidden;
   }
@@ -1583,7 +1583,7 @@ footer .social-media {
   }
 
   body.open header {
-    max-height: 600px;
+    max-height: 650px;
     background-color: var(--bg-color-2);
   }
 

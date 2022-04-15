@@ -65,7 +65,7 @@
           <img class="logo_d_h hidden" src="assets/logo_w_h.svg" alt="">
           <p class="text">Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.</p>
           <div class="cta">
-            <a href="mailto:markusraik@mail.com" class="btn">Contactanos</a>
+            <a href="#contact" class="btn">Contactanos</a>
             <a href="#portfolio" class="btn secondary-btn">Proyectos</a>
           </div>
         </div>
