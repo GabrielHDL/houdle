@@ -120,6 +120,10 @@ body.dark .toggle-btn:hover {
   background-color: brightness(110%);
 }
 
+body.dark .btn.secondary-btn {
+  color:#FFFFFF;
+}
+
 body.dark .nav-link:hover::after,
 body.dark .nav-link.active::after {
   opacity: 0.6;

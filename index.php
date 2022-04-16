@@ -65,7 +65,7 @@
           <img class="logo_d_h hidden" src="assets/logo_w_h.svg" alt="">
           <p class="text">Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.</p>
           <div class="cta">
-            <a href="#contact" class="btn">Contactanos</a>
+            <a href="#contact" class="btn">Contáctanos</a>
             <a href="#portfolio" class="btn secondary-btn">Proyectos</a>
           </div>
         </div>
@@ -400,7 +400,7 @@
             Tenemos más de una década en la industria creativa trabajando en individual para diferentes propósitos y proyectos, con houdle decidimos soñar, crear e inspirar.
           </p>
           <div class="cta">
-            <a href="#contact" class="btn">Contactanos</a>
+            <a href="#contact" class="btn">Contáctanos</a>
           </div>
         </div>
       </div>
@@ -761,7 +761,7 @@
       <div class="container">
         <img src="./assets/square2.png" class="shape square">
         <div class="contact-info">
-          <h3 class="sub-heading avenirBold">Contactanos</h3>
+          <h3 class="sub-heading avenirBold">Contáctanos</h3>
           <h1 class="heading walsheimBold">Trabajemos juntos</h1>
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, molestias non quia
