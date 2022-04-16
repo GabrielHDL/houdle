@@ -14,6 +14,13 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="./css/style.css">
 
+        {{-- FontAwesome --}}
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        {{-- favicon --}}
+        <link rel="icon" href="{{asset('favicons/favicon32x32.png')}}" sizes="32x32" />
+        <link rel="icon" href="{{asset('favicons/favicon192x192.png')}}" sizes="192x192" />
+
         @livewireStyles
     </head>
     <body>
