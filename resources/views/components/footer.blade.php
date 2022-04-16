@@ -21,6 +21,9 @@
                   <a target="_blank" href="https://twitter.com/houdlemx"><i class="fab fa-twitter-square text-3xl mr-2"></i></a>
                   <a target="_blank" href="https://www.instagram.com/houdlemx/"><i class="fab fa-instagram text-3xl"></i></a>
               </div>
+              <div class="trust__footer mt-4">
+                <a target="_blank" href="https://es.trustpilot.com/review/houdle.com"><img src="{{asset('assets/trustpilot_logo.svg')}}" alt=""></a>
+              </div>
           </div>
         </div>
       </div>

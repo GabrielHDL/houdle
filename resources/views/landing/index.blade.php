@@ -359,51 +359,19 @@
               </div>
               <div class="skills-wrap">
                 <div class="skill">
-                  <div class="sk-progress">
-                    <svg>
-                      <circle cx="75" cy="75" r="68" />
-                    </svg>
-                    <h2 class="counter">
-                      <span data-target="89">0</span>%
-                    </h2>
-                  </div>
-                  <div class="sk-title">HTML</div>
+                  <img src="{{asset('assets/continental_logo.svg')}}" alt="">
                 </div>
     
                 <div class="skill">
-                  <div class="sk-progress">
-                    <svg>
-                      <circle cx="75" cy="75" r="68" />
-                    </svg>
-                    <h2 class="counter">
-                      <span data-target="68">0</span>%
-                    </h2>
-                  </div>
-                  <div class="sk-title">CSS</div>
+                  <img src="{{asset('assets/tradeo_logo.svg')}}" alt="">
                 </div>
     
                 <div class="skill">
-                  <div class="sk-progress">
-                    <svg>
-                      <circle cx="75" cy="75" r="68" />
-                    </svg>
-                    <h2 class="counter">
-                      <span data-target="82">0</span>%
-                    </h2>
-                  </div>
-                  <div class="sk-title">JavaScript</div>
+                  <img src="{{asset('assets/hyma_logo.svg')}}" alt="">
                 </div>
     
                 <div class="skill">
-                  <div class="sk-progress">
-                    <svg>
-                      <circle cx="75" cy="75" r="68" />
-                    </svg>
-                    <h2 class="counter">
-                      <span data-target="55">0</span>%
-                    </h2>
-                  </div>
-                  <div class="sk-title">UI Design</div>
+                  <img src="{{asset('assets/jana_logo.svg')}}" alt="">
                 </div>
               </div>
               <img src="./assets/dots.png" class="shape dots">
@@ -428,16 +396,16 @@
               </p>
               <div class="milestones">
                 <div class="ml">
-                  <h2 class="number"><span data-target="11">0</span>+</h2>
-                  <h5>Years</h5>
+                  <h2 class="number"><span data-target="2">0</span>+</h2>
+                  <h5>Años</h5>
                 </div>
                 <div class="ml">
-                  <h2 class="number"><span data-target="79">0</span>+</h2>
-                  <h5>Projects</h5>
+                  <h2 class="number"><span data-target="26">0</span>+</h2>
+                  <h5>Proyectos</h5>
                 </div>
                 <div class="ml">
-                  <h2 class="number"><span data-target="95">0</span>+</h2>
-                  <h5>Clients</h5>
+                  <h2 class="number"><span data-target="26">0</span>+</h2>
+                  <h5>Clientes</h5>
                 </div>
               </div>
               <div class="cta">
@@ -680,6 +648,11 @@
                 </div>
               </div>
               <div class="swiper-pagination"></div>
+              <!-- TrustBox widget - Micro Review Count -->
+              <div class="trustpilot-widget mt-8" data-locale="es-ES" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5f73a1f791e2910001709526" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10">
+                <a href="https://es.trustpilot.com/review/houdle.com" target="_blank" rel="noopener">Trustpilot</a>
+              </div>
+              <!-- End TrustBox widget -->
             </div>
             <div class="testimonials-title">
               <h3 class="sub-heading avenirBold">Reseñas</h3>
@@ -700,14 +673,9 @@
               </p>
               <a href="mailto:hola@houdle.com" class="mail">hola@houdle.com<i class="uil uil-arrow-right"></i></a>
             </div>
-    
-            <form action="index.html" class="contact-form">
-              <h3>¡Escribenos!</h3>
-              <input type="text" class="form-input" placeholder="Nombre" required>
-              <input type="email" class="form-input" placeholder="Correo" required>
-              <textarea placeholder="¿Sí tu proyecto hablara que nos diría?" class="form-input" required></textarea>
-              <input type="submit" value="Enviar" class="btn">
-            </form>
+            
+            @livewire('contact')
+            
           </div>
         </section>
     

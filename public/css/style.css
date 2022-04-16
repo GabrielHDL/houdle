@@ -756,53 +756,6 @@ body.open .hamburger .bar:last-child {
   justify-content: center;
 }
 
-.sk-progress {
-  width: 150px;
-  height: 150px;
-  position: relative;
-}
-
-.sk-progress svg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-90deg);
-}
-
-.sk-progress svg circle {
-  fill: var(--bg-color-3);
-  stroke-width: 5px;
-  stroke: var(--main-color-1);
-  stroke-linecap: round;
-  stroke-dasharray: 427;
-  stroke-dashoffset: 427;
-  transition: 0.3s;
-}
-
-@keyframes progress {
-  to {
-    stroke-dashoffset: var(--target);
-  }
-}
-
-.counter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: var(--heading-color);
-  font-weight: 400;
-  font-size: 0.9rem;
-  transition: 0.3s color;
-}
-
-.counter span {
-  font-size: 2.45rem;
-}
-
 .sk-title {
   color: var(--heading-color);
   margin-top: 0.75rem;
@@ -1441,8 +1394,27 @@ footer .container {
   align-items: center;
 }
 
+.trust__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trust__footer a img {
+  height: 2rem;
+  width: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -1468,6 +1440,32 @@ footer .container {
 
 .social-links a {
   color: #FFFFFF;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #449f4a;
+  flex-direction: column;
+  background: #92ff99;
+  border: solid 2px #449f4a;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.alert-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8f4314;
+  flex-direction: column;
+  background: #f8ae17;
+  border: solid 2px #8f4314;
+  border-radius: 10px;
+  padding: .5rem;
+  margin-bottom: .8rem;
 }
 
 /* --------------- 1000px Screens --------------- */
@@ -1907,12 +1905,13 @@ footer .container {
     bottom: 30%;
   }
 
-  .footer {
-    height: 24rem;
+  footer {
+    height: 26rem;
   }
 
   .footer-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 2rem 0;
   }
 
   .footer-links {
