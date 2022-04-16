@@ -1,5 +1,5 @@
 <div>
-    <form wire:submit.prevent="submitForm" action="{{route('contacto.store')}}" class="contact-form" method="POST">
+    <form wire:submit.prevent="submitForm" class="contact-form" method="POST">
         @csrf
         <h3>¡Escribenos!</h3>
         <input wire:model="name" name="name" type="text" class="form-input" placeholder="Nombre">

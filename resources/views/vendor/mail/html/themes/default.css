@@ -80,7 +80,7 @@ img {
     -premailer-cellpadding: 0;
     -premailer-cellspacing: 0;
     -premailer-width: 100%;
-    background-color: #edf2f7;
+    background-color: #00283a;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -123,9 +123,9 @@ img {
     -premailer-cellpadding: 0;
     -premailer-cellspacing: 0;
     -premailer-width: 100%;
-    background-color: #edf2f7;
-    border-bottom: 1px solid #edf2f7;
-    border-top: 1px solid #edf2f7;
+    background-color: #00283a;
+    border-bottom: 1px solid #00283a;
+    border-top: 1px solid #00283a;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -232,11 +232,11 @@ img {
 
 .button-blue,
 .button-primary {
-    background-color: #2d3748;
-    border-bottom: 8px solid #2d3748;
-    border-left: 18px solid #2d3748;
-    border-right: 18px solid #2d3748;
-    border-top: 8px solid #2d3748;
+    background-color: #00283a;
+    border-bottom: 8px solid #00283a;
+    border-left: 18px solid #00283a;
+    border-right: 18px solid #00283a;
+    border-top: 8px solid #00283a;
 }
 
 .button-green,

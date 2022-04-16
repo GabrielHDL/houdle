@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Landing;
 use App\Http\Livewire\Contact;
+use App\Mail\ContactMailable;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,8 +17,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Landing::class, 'index']);
-
-Route::post('/contacto', [Contact::class, 'store'])->name('contacto.store');
 
 Route::middleware([
     'auth:sanctum',

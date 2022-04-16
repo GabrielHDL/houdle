@@ -1,12 +1,21 @@
 @component('mail::message')
-# Introduction
+# Nuevo contacto desde Houdle&reg;
 
-{{$contact['name']}} has sent you a message.
+{{$contact['name']}} ha solicitado contactarse con el equipo houdle para:
+<br>
+{{$contact['description']}}
+<br>
+<br>
+Dejo sus datos personales:
+<br>
+Correo: {{$contact['email']}}
+<br>
+Teléfono: {{$contact['phone']}}
 
-@component('mail::button', ['url' => ''])
-Button Text
+@component('mail::button', ['url' => 'mailto:'.$contact['email']])
+Contactar
 @endcomponent
 
-Thanks,<br>
+Tu bot Houdly! 😎<br>
 {{ config('app.name') }}
 @endcomponent
