@@ -449,11 +449,7 @@
                 <div class="card-desc">
                   <h3>Branding</h3>
                   <p class="text">
-                    Lorem Ipsum has
-                    been the industry's standard
-                    dummy text ever since the 1500s, when an unknown printer make
-                    a type specimen
-                    book.
+                    Creamos la identidad visual para marcas, agencias, empresas, haciendo una experiencia inolvidable.
                   </p>
                 </div>
                 <a href="#portfolio" class="btn secondary-btn">Ver proyectos</a>
@@ -462,9 +458,7 @@
                 <div class="card-desc">
                   <h3>Desarrollo Web</h3>
                   <p class="text">
-                    Lorem Ipsum
-                    has been the industry's standard
-                    dummy text ever since the 1500s, when an unknown.
+                    Contamos con desarrolladores altamente especializados para llevar a cabo los proyectos más complicados, de la mano de nuestros diseñadores expertos en UX / UI.
                   </p>
                 </div>
                 <a href="#portfolio" class="btn secondary-btn">Ver proyectos</a>
@@ -473,9 +467,7 @@
                 <div class="card-desc">
                   <h3>Apps iOS/Android</h3>
                   <p class="text">
-                    Lorem Ipsum
-                    has been the industry's standard
-                    dummy text ever since the 1500s.
+                    Diseñamos y desarrollamos aplicaciones para iOS y Android, con una experiencia de usuario única, faciles e intuitivas.
                   </p>
                 </div>
                 <a href="#portfolio" class="btn secondary-btn">Ver proyectos</a>
@@ -484,10 +476,7 @@
                 <div class="card-desc">
                   <h3>Marketing</h3>
                   <p class="text">
-                    Lorem Ipsum
-                    has been the industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took make a type specimen
-                    book.
+                    Un equipo de profesionales con más de 10 años de experiencia en el mercado, con una amplia experiencia en el diseño y desarrollo de campañas de marketing.
                   </p>
                 </div>
                 <a href="#portfolio" class="btn secondary-btn">Ver proyectos</a>
@@ -649,45 +638,44 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="client">
-                    <img src="./assets/testi1.png" alt="">
+                    <div class="profile_client">
+                      <img src="./assets/clients/monse.png" alt="Monserrath Oropeza">
+                    </div>
                     <div class="client-info">
-                      <h4>Kelly Williams</h4>
-                      <h5>Executive Officer <a href="#">@ABEnergy</a></h5>
+                      <h4>Monserrath Oropeza</h4>
+                      <h5>CEO en<a target="_blank" href="https://tradeo.mx"> @Tradeo_Logistics</a></h5>
                     </div>
                   </div>
                   <q class="text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                    been the industry's standard
-                    dummy text ever since the 1500s, when an unknown printer make
-                    book, but also the leap into electronic typesetting.
+                    Super profesionales, trabajos de calidad y excelente servicio.
                   </q>
                 </div>
                 <div class="swiper-slide">
                   <div class="client">
-                    <img src="./assets/testi2.png" alt="">
+                    <div class="profile_client">
+                      <img src="./assets/clients/dasha.png" alt="Dasha Estefania">
+                    </div>
                     <div class="client-info">
-                      <h4>Witold Gislenus</h4>
-                      <h5>CEO of <a href="#">@Eco_Focus</a></h5>
+                      <h4>Estefania Dlp</h4>
+                      <h5>CEO en <a target="_blank" href="https://valkiriamkt.com">@Valkiria_Marketing</a></h5>
                     </div>
                   </div>
                   <q class="text">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                    took a galley of
-                    type and scrambled it to make a type specimen book.
+                    Equipo de profesionales, muy responsables pero sobre todo muy comprometidos con su filosofía empresarial, recomiendo su trabajo, experiencia y calidez humana.
                   </q>
                 </div>
                 <div class="swiper-slide">
                   <div class="client">
-                    <img src="./assets/testi3.png" alt="">
+                    <div class="profile_client">
+                      <img src="./assets/testi3.png" alt="Dasha Estefania">
+                    </div>
                     <div class="client-info">
-                      <h4>Ben Dennis</h4>
-                      <h5>Software Engineer <a href="#">@Epic_Dev</a></h5>
+                      <h4>Jose Uriostegui</h4>
+                      <h5>CEO en <a target="_blank" href="https://tiendasjana.com">@Tiendas_Jana</a></h5>
                     </div>
                   </div>
                   <q class="text">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its
-                    layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                    Su trabajo es de calidad, justo lo que pedí y con una gran atención.
                   </q>
                 </div>
               </div>
@@ -708,14 +696,13 @@
               <h3 class="sub-heading avenirBold">Contáctanos</h3>
               <h1 class="heading walsheimBold">Trabajemos juntos</h1>
               <p class="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, molestias non quia
-                expedita earum commodi!
+                Juntos podemos lograr una solución que se adapte a tus necesidades.
               </p>
               <a href="mailto:hola@houdle.com" class="mail">hola@houdle.com<i class="uil uil-arrow-right"></i></a>
             </div>
     
             <form action="index.html" class="contact-form">
-              <h3>Escribenos!</h3>
+              <h3>¡Escribenos!</h3>
               <input type="text" class="form-input" placeholder="Nombre" required>
               <input type="email" class="form-input" placeholder="Correo" required>
               <textarea placeholder="¿Sí tu proyecto hablara que nos diría?" class="form-input" required></textarea>
@@ -733,13 +720,12 @@
                 <h3 class="sub-heading avenirBold">Suscribete</h3>
                 <h1 class="heading walsheimBold">Mantente al tanto de nuestros proyectos</h1>
                 <p class="text">
-                  Lorem Ipsum is simply dummy text of the printing and standard
-                  dummy text since the 1500s
+                  ¿Te encanta el diseño, desarrollo y marketing? suscribete y recibe nuestras últimas noticias.
                 </p>
               </div>
               <form action="index.html">
-                <input type="email" placeholder="Email" class="form-input" required>
-                <input type="submit" value="Subscribe" class="btn">
+                <input type="email" placeholder="Correo" class="form-input" required>
+                <input type="submit" value="Suscribete" class="btn">
               </form>
             </div>
           </div>

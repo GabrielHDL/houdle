@@ -599,6 +599,20 @@ body.open .hamburger .bar:last-child {
   transform: translate(-50%, 50%);
 }
 
+/* --------------- Clients Profile Styling --------------- */
+
+.profile_client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
 /* --------------- About Section Styling --------------- */
 
 .about .container {
@@ -1907,11 +1921,16 @@ footer .container {
 
   .footer-links a {
     text-align: center;
+    font-size: 13px;
   }
 
   .footer-logo img {
     height: 4.5rem;
     width: auto;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
   }
 }
 
