@@ -22,7 +22,9 @@
          <meta property="og:url" content="{{Request::url()}}" />
          <meta property="og:site_name" content="Houdle®" />
          <meta property="og:image" content="{{asset('assets/open_houdle.jpg')}}" />
-         <meta propety="og:image:alt" content="{{ config('app.name', 'Tradeo Logistics') }} Open Graph image" />
+         <meta propety="og:image:alt" content="{{ config('app.name', 'Houdle®') }} Open Graph image" />
+         <meta property="fb:pages" content="100277535076254" />
+         <meta property="fb:app_id" content="1195304784167838" />
          <meta property="og:locale" content="es_MX">
          <meta name="twitter:title" content="Houdle®">
          <meta name="twitter:description" content="Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.">
