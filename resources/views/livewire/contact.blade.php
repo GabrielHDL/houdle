@@ -1,7 +1,7 @@
 <div>
     <form wire:submit.prevent="submitForm" class="contact-form" method="POST">
         @csrf
-        <h3>¡Escribenos!</h3>
+        <h3>¡Escríbenos!</h3>
         <input wire:model="name" name="name" type="text" class="form-input" placeholder="Nombre">
         @error('name')
             <div class="alert-form">
@@ -28,9 +28,12 @@
         @enderror
         <input type="submit" value="Enviar" class="btn">
         @if ($successMessage)
-                <div class="success-message">
-                    <p>{{ $successMessage }}</p>
+            <div class="success-message">
+                <div class="close-message">
+                    <i wire:click="$set('successMessage', null)" class="fa-solid fa-xmark"></i>
                 </div>
+                <p>{{ $successMessage }}</p>
+            </div>
         @endif
     </form>
 </div>

@@ -745,7 +745,7 @@ body.open .hamburger .bar:last-child {
 .skills-wrap {
   display: grid;
   grid-template-columns: repeat(4, 150px);
-  margin-top: 2rem;
+  margin-top: 3rem;
   justify-content: space-between;
 }
 
@@ -1409,6 +1409,10 @@ footer .container {
   margin-bottom: 0.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1446,13 +1450,21 @@ footer .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #449f4a;
+  color: #002738;
   flex-direction: column;
-  background: #92ff99;
-  border: solid 2px #449f4a;
+  background: #a8e3ff;
+  border: solid 2px #002738;
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1rem;
+  position: relative;
+}
+
+.close-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .alert-form {
@@ -1959,6 +1971,7 @@ footer .container {
   .skills-wrap {
     grid-template-columns: 1fr;
     row-gap: 1.5rem;
+    justify-content: center;
   }
 
   .services-grid {

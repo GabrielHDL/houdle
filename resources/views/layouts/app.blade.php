@@ -5,7 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','G-GXJVMGBLGL');
+        </script>
+            <!-- End Google Tag Manager -->
+
+         {{-- Open Graph --}}
+         <meta name="Description" content="Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa." />
+         <meta property="og:title" content="Houdle®" />
+         <meta property="og:type" content="website" />
+         <meta property="og:description" content="Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa." />
+         <meta property="og:url" content="{{Request::url()}}" />
+         <meta property="og:site_name" content="Houdle®" />
+         <meta property="og:image" content="{{asset('assets/open_houdle.jpg')}}" />
+         <meta propety="og:image:alt" content="{{ config('app.name', 'Tradeo Logistics') }} Open Graph image" />
+         <meta property="og:locale" content="es_MX">
+         <meta name="twitter:title" content="Houdle®">
+         <meta name="twitter:description" content="Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.">
+         <meta name="twitter:image" content="{{asset('assets/open_houdle.jpg')}}">
+         <meta name="twitter:site" content="houdlemx">
+         <meta name="twitter:creator" content="houdlemx">
+ 
+         {{-- Theme Color --}}
+         <meta name="theme-color" content="#F3F5F6">
+
+        <title>{{ config('app.name', 'Houdle®') }}</title>
 
         <!-- --------- Scroll Reveal Library --------- -->
         <script src="https://unpkg.com/scrollreveal"></script>
@@ -15,7 +43,7 @@
         <link rel="stylesheet" href="./css/style.css">
 
         {{-- FontAwesome --}}
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
 
         <!-- TrustBox script -->
         <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
@@ -28,6 +56,13 @@
         @livewireStyles
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=G-GXJVMGBLGL"
+                    height="0" width="0" style="display:none;visibility:hidden">
+            </iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <div class="overlay"></div>
             @livewire('navigation')
 

@@ -355,7 +355,7 @@
             <div class="skills-box">
               <div class="box-heading">
                 <h3 class="sub-heading avenirBold">Nuestros clientes</h3>
-                <h1 class="heading walsheimBold">Proyectos increibles para marcas increibles</h1>
+                <h1 class="heading walsheimBold">Proyectos increíbles para marcas increíbles</h1>
               </div>
               <div class="skills-wrap">
                 <div class="skill">
@@ -410,6 +410,7 @@
               </div>
               <div class="cta">
                 <a href="#contact" class="btn">Trabajemos juntos</a>
+                <a href="{{asset('assets/Catalogo_Houdle.pdf')}}" class="btn secondary-btn" download>Descargar Catálogo</a>
               </div>
             </div>
             <div class="services-grid">
@@ -435,7 +436,7 @@
                 <div class="card-desc">
                   <h3>Apps iOS/Android</h3>
                   <p class="text">
-                    Diseñamos y desarrollamos aplicaciones para iOS y Android, con una experiencia de usuario única, faciles e intuitivas.
+                    Diseñamos y desarrollamos aplicaciones para iOS y Android, con una experiencia de usuario única, fáciles e intuitivas.
                   </p>
                 </div>
                 <a href="#portfolio" class="btn secondary-btn">Ver proyectos</a>
@@ -463,12 +464,10 @@
               </div>
               <!-- modals -->
               <div class="images">
-                <img class="showImage" src="assets/container.jpg">
-                <img src="assets/port2.png">
-                <img src="assets/port3.jpg">
-                <img src="assets/port4.png">
-                <img src="assets/port5.png">
-                <img src="assets/port6.jpg">
+                <img class="showImage" src="{{asset('assets/container.jpg')}}">
+                <img src="{{asset('assets/hyma.jpg')}}">
+                <img src="{{asset('assets/jana.jpg')}}">
+                <img src="{{asset('assets/valkiria.jpg')}}">
               </div>
               <div class="next-btn navigation">
                 <i class="uil uil-angle-right-b"></i>
@@ -479,7 +478,7 @@
             <div class="portfolio-header">
               <div class="portfolio-title">
                 <h3 class="sub-heading avenirBold">Proyectos</h3>
-                <h1 class="heading walsheimBold">Ultimos Proyectos</h3>
+                <h1 class="heading walsheimBold">Últimos Proyectos</h3>
               </div>
               <div class="filter-btns">
                 <button class="filter-btn" data-filter="all">Todos</button>
@@ -491,7 +490,7 @@
             <div class="portfolio-gallery">
               <div class="mix prt-card branding development">
                 <div class="prt-image">
-                  <img src="./assets/container.jpg" alt="">
+                  <img src="{{asset('assets/container.jpg')}}" alt="">
                   <div class="prt-overlay">
                     <span class="prt-icon zoom-icon" style="--i: 0s">
                       <i class="uil uil-search-plus"></i>
@@ -506,60 +505,9 @@
                   <a target="_blank" href="https://www.behance.net/gallery/141700273/TRADEO-Logistics" class="btn secondary-btn sm">Ver proyecto</a>
                 </div>
               </div>
-              <div class="mix prt-card branding">
-                <div class="prt-image">
-                  <img src="./assets/port2.png" alt="">
-                  <div class="prt-overlay">
-                    <span class="prt-icon zoom-icon" style="--i: 0s">
-                      <i class="uil uil-search-plus"></i>
-                    </span>
-                    <a href="#" class="prt-icon" style="--i: .15s">
-                      <i class="uil uil-link-h"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="prt-desc">
-                  <h3>John product design</h3>
-                  <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
-                </div>
-              </div>
-              <div class="mix prt-card marketing">
-                <div class="prt-image">
-                  <img src="./assets/port3.jpg" alt="">
-                  <div class="prt-overlay">
-                    <span class="prt-icon zoom-icon" style="--i: 0s">
-                      <i class="uil uil-search-plus"></i>
-                    </span>
-                    <a href="#" class="prt-icon" style="--i: .15s">
-                      <i class="uil uil-link-h"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="prt-desc">
-                  <h3>Meta web design</h3>
-                  <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
-                </div>
-              </div>
-              <div class="mix prt-card marketing">
-                <div class="prt-image">
-                  <img src="./assets/port4.png" alt="">
-                  <div class="prt-overlay">
-                    <span class="prt-icon zoom-icon" style="--i: 0s">
-                      <i class="uil uil-search-plus"></i>
-                    </span>
-                    <a href="#" class="prt-icon" style="--i: .15s">
-                      <i class="uil uil-link-h"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="prt-desc">
-                  <h3>TwitUp web design</h3>
-                  <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
-                </div>
-              </div>
               <div class="mix prt-card development">
                 <div class="prt-image">
-                  <img src="./assets/port5.png" alt="">
+                  <img src="{{asset('assets/hyma.jpg')}}" alt="">
                   <div class="prt-overlay">
                     <span class="prt-icon zoom-icon" style="--i: 0s">
                       <i class="uil uil-search-plus"></i>
@@ -570,13 +518,13 @@
                   </div>
                 </div>
                 <div class="prt-desc">
-                  <h3>Markus interaction</h3>
+                  <h3>HYMA Medicina Estética</h3>
                   <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
                 </div>
               </div>
-              <div class="mix prt-card marketing">
+              <div class="mix prt-card development marketing">
                 <div class="prt-image">
-                  <img src="./assets/port6.jpg" alt="">
+                  <img src="{{asset('assets/jana.jpg')}}" alt="">
                   <div class="prt-overlay">
                     <span class="prt-icon zoom-icon" style="--i: 0s">
                       <i class="uil uil-search-plus"></i>
@@ -587,7 +535,24 @@
                   </div>
                 </div>
                 <div class="prt-desc">
-                  <h3>Demga web design</h3>
+                  <h3>Tiendas Jana</h3>
+                  <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
+                </div>
+              </div>
+              <div class="mix prt-card development marketing">
+                <div class="prt-image">
+                  <img src="{{asset('assets/valkiria.jpg')}}" alt="">
+                  <div class="prt-overlay">
+                    <span class="prt-icon zoom-icon" style="--i: 0s">
+                      <i class="uil uil-search-plus"></i>
+                    </span>
+                    <a href="#" class="prt-icon" style="--i: .15s">
+                      <i class="uil uil-link-h"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="prt-desc">
+                  <h3>Valkiria Marketing</h3>
                   <a href="#" class="btn secondary-btn sm">Ver proyecto</a>
                 </div>
               </div>
@@ -635,7 +600,7 @@
                 <div class="swiper-slide">
                   <div class="client">
                     <div class="profile_client">
-                      <img src="./assets/testi3.png" alt="Dasha Estefania">
+                      <img src="./assets/testi3.png" alt="Jose Uriostegui">
                     </div>
                     <div class="client-info">
                       <h4>Jose Uriostegui</h4>
@@ -679,24 +644,7 @@
           </div>
         </section>
     
-        <section class="subscription section">
-          <div class="container">
-            <img src="./assets/map.png" alt="" class="map">
-            <div class="sub-box">
-              <img src="./assets/square2.png" class="shape square">
-              <div class="sub-info">
-                <h3 class="sub-heading avenirBold">Suscribete</h3>
-                <h1 class="heading walsheimBold">Mantente al tanto de nuestros proyectos</h1>
-                <p class="text">
-                  ¿Te encanta el diseño, desarrollo y marketing? suscribete y recibe nuestras últimas noticias.
-                </p>
-              </div>
-              <form action="index.html">
-                <input type="email" placeholder="Correo" class="form-input" required>
-                <input type="submit" value="Suscribete" class="btn">
-              </form>
-            </div>
-          </div>
-        </section>
+        @livewire('subscription')
+        
     </main>
 </x-app-layout>

@@ -198,4 +198,4 @@ ESTO INCLUYE LA PÉRDIDA DE DATOS RESULTANTES DE RETRASOS, NO ENTREGAS, ENTREGA 
 EL NO SEGUIR CUALQUIER TÉRMINO O CONDICIÓN SERÁ BASE PARA CANCELACIÓN DE CUENTA INMEDIATA.</strong><br />
 
 <strong><h3>Declaracion de Privacidad.</h3></strong>
-<strong><a href="https://blog.houdle.com/privacy-policy">HOUDLE sigue las estrictas pautas de nuestra declaración de privacidad del cliente.</a></strong></p>
+<strong><a href="https://houdle.com/privacy-policy">HOUDLE sigue las estrictas pautas de nuestra declaración de privacidad del cliente.</a></strong></p>

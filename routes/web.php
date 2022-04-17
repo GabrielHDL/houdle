@@ -16,7 +16,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Landing::class, 'index']);
+Route::get('/', [Landing::class, 'index'])->name('home');
+
+Route::get('/login', function () {
+    return redirect('/');
+});
+
+Route::get('/register', function () {
+    return redirect('/');
+});
 
 Route::middleware([
     'auth:sanctum',
