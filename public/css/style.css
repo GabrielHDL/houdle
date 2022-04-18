@@ -71,11 +71,11 @@
 /* --------------- Website Theme --------------- */
 
 :root {
-  --hue-1: 198;
-  --hue-2: 40;
-  --main-color-1: hsl(var(--hue-1), 100%, 11%);
+  --hue-1: 40;
+  --hue-2: 198;
+  --main-color-1: hsl(var(--hue-1), 94%, 53%);
   --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
-  --main-color-2: hsl(var(--hue-2), 94%, 53%);
+  --main-color-2: hsl(var(--hue-2), 100%, 11%);
   --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
   --section-padding: 7rem;
 }
@@ -91,14 +91,16 @@ body {
 }
 
 body.dark {
-  --bg-color: hsl(var(--hue-1), 19%, 15%);
-  --bg-color-1: hsl(var(--hue-1), 21%, 11%);
-  --bg-color-2: hsl(var(--hue-1), 23%, 19%);
-  --bg-color-3: hsl(var(--hue-1), 23%, 24%);
-  --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
+  --bg-color: hsl(var(--hue-2), 19%, 15%);
+  --bg-color-1: hsl(var(--hue-2), 21%, 11%);
+  --bg-color-2: hsl(var(--hue-2), 23%, 19%);
+  --bg-color-3: hsl(var(--hue-2), 23%, 24%);
+  --bg-color-transparent: hsla(var(--hue-2), 23%, 19%, 0.6);
   --heading-color: hsl(var(--hue-1), 100%, 95%);
   --text-color: hsl(var(--hue-1), 14%, 51%);
 }
+
+
 
 body.dark .st1 {
   fill: hsl(var(--hue-1), 18%, 29%);
@@ -120,9 +122,17 @@ body.dark .toggle-btn:hover {
   background-color: brightness(110%);
 }
 
-body.dark .btn.secondary-btn {
-  color:#FFFFFF;
+body.dark .footer-bottom {
+  background-color: var(--main-color-1);
 }
+
+body.dark footer {
+  background-color: var(--main-color-2);
+}
+
+/* body.dark .btn.secondary-btn {
+  color:#FFFFFF;
+} */
 
 body.dark .nav-link:hover::after,
 body.dark .nav-link.active::after {
@@ -1336,7 +1346,8 @@ textarea.form-input {
 
 footer {
   height: 20rem;
-  background-color: var(--main-color-2);
+  background-color: var(--main-color-1);
+  transition: background-color linear 0.3s;
 }
 
 footer .container {
@@ -1387,11 +1398,12 @@ footer .container {
 
 .footer-bottom {
   height: 4rem;
-  background-color: var(--main-color-1);
+  background-color: var(--main-color-2);
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color linear 0.3s;
 }
 
 .trust__footer {
