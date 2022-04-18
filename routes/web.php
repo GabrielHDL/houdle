@@ -26,6 +26,14 @@ Route::get('/register', function () {
     return redirect('/');
 });
 
+Route::get('/que', function () {
+    return redirect('/#services', 301);
+});
+
+Route::get('/quien', function () {
+    return redirect('/#about', 301);
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

@@ -997,10 +997,10 @@ body.open .hamburger .bar:last-child {
 }
 
 .prt-icon {
-  color: hsl(var(--hue-1), 61%, 24%);
+  color: hsl(var(--hue-2), 61%, 24%);
   font-size: 1.1rem;
   margin: 0 0.4rem;
-  background-color: var(--main-color-2);
+  background-color: var(--main-color-1);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -1014,7 +1014,7 @@ body.open .hamburger .bar:last-child {
 }
 
 .prt-icon:hover {
-  background-color: var(--main-color-dark-2);
+  background-color: var(--main-color-dark-1);
 }
 
 .prt-image:hover .prt-icon {
