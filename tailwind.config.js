@@ -11,7 +11,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Avenir', ...defaultTheme.fontFamily.sans],
+                walsheim: ['Walsheim'],
+                walsheimBold: ['Walsheim Bold'],
+                walsheimMedium: ['Walsheim Medium'],
+                walsheimBlack: ['Walsheim Black']
             },
         },
     },

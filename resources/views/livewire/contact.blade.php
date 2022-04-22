@@ -26,6 +26,7 @@
             <p>{{ $message }}</p>
         </div>
         @enderror
+        {!! app('captcha')->render(); !!}
         <input type="submit" value="Enviar" class="btn">
         @if ($successMessage)
             <div class="success-message">

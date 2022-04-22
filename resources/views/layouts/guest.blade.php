@@ -5,16 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
-
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <title>{{ config('app.name', 'Houdle®') }} @yield('title')</title>
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+        {{-- favicon --}}
+        <link rel="icon" href="{{asset('favicons/favicon32x32.png')}}" sizes="32x32" />
+        <link rel="icon" href="{{asset('favicons/favicon192x192.png')}}" sizes="192x192" />
+
+        <meta name="theme-color" content="#F7583A">
 
         <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">

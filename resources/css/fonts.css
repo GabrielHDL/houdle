@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Walsheim Black';
+    src: url('/assets/fonts/gtwalsheimpro-black-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gtwalsheimpro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Walsheim Bold';
+    src: url('/assets/fonts/gtwalsheimpro-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gtwalsheimpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Walsheim Medium';
+    src: url('/assets/fonts/gtwalsheimpro-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gtwalsheimpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+  }
+  
+  
+  @font-face {
+    font-family: 'Walsheim';
+    src: url('/assets/fonts/gtwalsheimpro-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/gtwalsheimpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+  }
+  
+  @font-face {
+    font-family: 'Avenir';
+    src: url('/assets/fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Avenir Italic';
+    src: url('/assets/fonts/AvenirNextLTPro-It.woff2') format('woff2'),
+        url('/assets/fonts/AvenirNextLTPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Avenir Bold';
+    src: url('/assets/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('/assets/fonts/AvenirNextLTPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+  }
