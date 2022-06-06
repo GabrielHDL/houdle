@@ -43,7 +43,9 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/pride_bar.css">
+        @if (date('F') == 'June')
+            <link rel="stylesheet" href="./css/pride_bar.css">
+        @endif
 
         {{-- FontAwesome --}}
         <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
@@ -66,8 +68,10 @@
             </iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <div id="progressbar"></div>
-        <div id="scrollpath"></div>
+        @if (date('F') == 'June')
+            <div id="progressbar"></div>
+            <div id="scrollpath"></div>
+        @endif
         <div class="overlay"></div>
             @livewire('navigation')
 
@@ -84,7 +88,10 @@
         <x-footer />
 
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script src="{{asset('js/mixitup.min.js')}}"></script>
+        <script src="{{asset('js/mixitup.min.js')}}"></script>   
         <script src="{{asset('js/app_custom.js')}}"></script>
+        @if (date('F') == 'June')
+            <script src="{{asset('js/pride_bar.js')}}"></script>
+        @endif
     </body>
 </html>
