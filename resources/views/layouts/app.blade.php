@@ -43,7 +43,6 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/app.css">
 
         {{-- FontAwesome --}}
         <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
