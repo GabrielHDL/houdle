@@ -43,9 +43,6 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="./css/style.css">
-        @if (error)
-            
-        @endif
         <link rel="stylesheet" href="./css/app.css">
 
         {{-- FontAwesome --}}
@@ -69,6 +66,8 @@
             </iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
+        <div id="progressbar"></div>
+        <div id="scrollpath"></div>
         <div class="overlay"></div>
             @livewire('navigation')
 
