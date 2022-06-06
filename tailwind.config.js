@@ -17,6 +17,17 @@ module.exports = {
                 walsheimMedium: ['Walsheim Medium'],
                 walsheimBlack: ['Walsheim Black']
             },
+            colors: {
+                hdlPeach: '#F7583A',
+                hdlPeachStrong: '#C6472E',
+                hdlBananaHi: '#FFD42D',
+                hdlBlack: '#00283a',
+                hdlBanana: '#F8AE17',
+                hdlBlackHi: '#101419'
+            },
+            boxShadow: {
+                '1xl': '0 0 10px rgba(0, 0, 0, 0.5)',
+            }
         },
     },
 
