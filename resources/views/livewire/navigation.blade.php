@@ -22,7 +22,7 @@
             <a href="#contact" class="nav-link">Contacto</a>
           </li>
           <li>
-            <a target="_blank" href="https://blog.houdle.com" class="nav-link">Blog</a>
+            <a href="#blog" class="nav-link">Blog</a>
           </li>
           <li>
             <a target="_blank" href="https://clientes.houdle.com" class="nav-link">Hosting</a>

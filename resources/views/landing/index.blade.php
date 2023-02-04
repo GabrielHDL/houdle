@@ -348,8 +348,7 @@
               </div>
             </div>
           </div>
-        </section>
-    
+        </section>    
         <section class="skills section">
           <div class="container">
             <div class="skills-box">
@@ -643,6 +642,37 @@
             
           </div>
         </section>
+        {{-- Sección de Blog --}}
+        <section class="section posts" id="blog">
+          <div class="container">
+            <div class="posts-header">
+              <div class="posts-title">
+                <h3 class="sub-heading avenirBold">Blog</h3>
+                <h1 class="heading walsheimBold">Últimos Posts</h3>
+              </div>
+            </div>
+            <div class="posts-gallery">
+              @foreach ($posts as $post)
+                <div class="pst-card">
+                  <div class="pst-image">
+                    <span><a target="_blank" href="{{$blog['category'] . $post->category->slug}}">{{$post->category->name}}</a></span>
+                    <a target="_blank" href="{{$blog['post'] . $post->slug}}">
+                      <img src="{{$blog['image'] . $post->image->url}}" alt="">
+                    </a>
+                  </div>
+                  <div class="pst-desc">
+                    <h3>{{$post->name}}</h3>
+                    <a target="_blank" href="{{$blog['post'] . $post->slug}}" class="btn secondary-btn sm">Ver post</a>
+                  </div>
+                </div>
+              @endforeach
+            </div>
+            <div class="last-blog">
+              <a target="_blank" href="{{$blog['url']}}" class="btn">Ir a Houdle Blog®</a>
+            </div>
+          </div>
+        </section>
+        {{-- Termina sección de Blog --}}
     
         @livewire('subscription')
         
