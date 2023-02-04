@@ -7,8 +7,7 @@
               <h3 class="sub-heading avenirBold">Agencia Digital Creativa</h3>
               <img class="logo_l_h show" src="assets/logo_b_h.svg" alt="">
               <img class="logo_d_h hidden" src="assets/logo_w_h.svg" alt="">
-              <p class="text">Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.<br>
-              iqonic.mx</p>
+              <p class="text">Agencia digital creativa de experiencias únicas especializada en identidad visual, verbal y estrategia de marca. Para el diseño y personalidad de tu empresa.</p>
               <div class="cta">
                 <a href="#contact" class="btn">Contáctanos</a>
                 <a href="#portfolio" class="btn secondary-btn">Proyectos</a>
