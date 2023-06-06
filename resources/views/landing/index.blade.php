@@ -668,7 +668,7 @@
               @endforeach
             </div>
             <div class="last-blog">
-              <a target="_blank" href="{{$blog['url']}}" class="btn">Ir a Houdle Blog®</a>
+              <a target="_blank" href="{{$blog['url']}}" class="btn">Ir a Houdle Blog® 21</a>
             </div>
           </div>
         </section>
